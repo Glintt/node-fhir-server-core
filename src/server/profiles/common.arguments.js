@@ -51,6 +51,12 @@ module.exports.search_args = {
 		type: 'string',
 		definition: 'https://www.hl7.org/fhir/searchparameter-registry.html#resource',
 		documentation: undefined
+	},
+	_COUNT: {
+		name: '_count',
+		type: 'number',
+		definition: 'https://www.hl7.org/fhir/searchparameter-registry.html#resource',
+		documentation: undefined
 	}
 };
 
@@ -104,6 +110,12 @@ module.exports.common_args = {
 	_TAG: {
 		name: '_tag',
 		type: 'token',
+		definition: 'https://www.hl7.org/fhir/searchparameter-registry.html#resource',
+		documentation: undefined
+	},
+	_COUNT: {
+		name: '_count',
+		type: 'number',
 		definition: 'https://www.hl7.org/fhir/searchparameter-registry.html#resource',
 		documentation: undefined
 	}
